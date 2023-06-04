@@ -39,7 +39,7 @@ int main(void) {
 		}
 	}
 	
-	//cchecking if its divisible and increasing
+	//checking if its divisible and increasing
 	else if (second % first == 0 && third % first == 0 && second > first && third > second) {
 		printf("Divisible & Increasing\n");
 		
